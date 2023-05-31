@@ -11,7 +11,7 @@ public class SpringBootDockerJenkinsApplication {
 
 	@GetMapping("/jenkins")
 	public String message(){
-		return "Welcome to CI/CD with Jenkins.";
+		return "Welcome to CI/CD with Jenkins pipeline: maven build, docker image build, push image to AZURE.";
 	}
 
 	public static void main(String[] args) {
